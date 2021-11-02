@@ -1,6 +1,11 @@
-const withMDX = require('@next/mdx')()
-const withMdxFm = require('next-mdx-frontmatter')
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: []
+  }
+})
 
-module.exports = withMdxFm({
-  pageExtensions: ['js', 'jsx', 'mdx'],
-})()
+module.exports = withMDX({
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx']
+})

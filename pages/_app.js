@@ -6,8 +6,8 @@ function MyBlog({ Component, pageProps }) {
   const {slug} = pageProps
   console.log(pageProps) 
   return <Layout><Component {...pageProps} /></Layout>
-  return slug ? <Layout><Post><Component {...pageProps} /></Post></Layout> : 
-                <Layout><Component {...pageProps} /></Layout>
+  // return slug ? <Layout><Post><Component {...pageProps} /></Post></Layout> : 
+  //               <Layout><Component {...pageProps} /></Layout>
 }
 
 export default MyBlog

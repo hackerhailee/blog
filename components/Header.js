@@ -2,16 +2,16 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 
 const user = {
-    name: 'Tom Cook',
-    email: 'tom@example.com',
+    name: 'Hacker Hailee',
+    email: 'hailee@saas.dev',
     imageUrl:
       '/me.jpg',
   }
   const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
+    // { name: 'Dashboard', href: '#', current: true },
+    // { name: 'Team', href: '#', current: false },
+    // { name: 'Projects', href: '#', current: false },
+    // { name: 'Calendar', href: '#', current: false },
   ]
   const userNavigation = [
     { name: 'Your Profile', href: '#' },
